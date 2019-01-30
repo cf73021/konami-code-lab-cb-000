@@ -17,7 +17,7 @@ function init() {
   document.body.addEventListener('keydown', onKeyDownHandler);
   if (key === codes([index])){
     index++;
-    if (index === alphabet.length){
+    if (index === codes.length){
       alert("Done.");
       index = 0;
     }
