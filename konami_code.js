@@ -17,6 +17,10 @@ function init(e) {
 
   if (key === alphabet([index])){
     index++;
+    if (index === alphabet.length){
+      alert("Done.");
+      index = 0;
+    }
   }
 
 }
