@@ -13,9 +13,9 @@ const codes = [
 
 function init() {
   let index = 0
-  const key = e.key
+
   document.body.addEventListener('keydown', onKeyDownHandler);
-  if (key === alphabet([index])){
+  if (key === codes([index])){
     index++;
     if (index === alphabet.length){
       alert("Done.");
