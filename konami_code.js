@@ -17,7 +17,7 @@ function init() {
   document.body.addEventListener('keydown', onKeyDownHandler);
 
   function onKeyDownHandler(e){
-    const key = e.key
+    const key = parseInt(e.detail || e.which)
       if (key === codes([index])){
         index++;
       if (index === codes.length){
