@@ -16,6 +16,7 @@ function init(e) {
   const key = e.key
 
   if (key === alphabet([index])){
-    index++
+    index++;
   }
+
 }
